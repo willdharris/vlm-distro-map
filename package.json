@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@carbon/ibmdotcom-styles": "^1.15.0",
+    "autoprefixer": "^10.2.4",
+    "carbon-components": "^10.28.0",
+    "node-sass": "^5.0.0",
+    "parcel": "^1.12.4",
+    "sass": "^1.32.6",
+    "sass-loader": "^11.0.1",
+    "src": "^1.1.2"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss styles/main.scss   styles/main.css",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "name": "distro_map_carbon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Will Harris",
+  "license": "MIT"
+}

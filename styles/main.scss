@@ -1,0 +1,29 @@
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_header.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_content.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_functions.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_header-panel.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_navigation-menu.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_product-switcher.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_side-nav.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_switcher.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_theme.scss";
+@import "./node_modules/carbon-components/scss/components/ui-shell/_ui-shell.scss";
+@import "./node_modules/carbon-components/scss/components/button/_button.scss";
+@import "./node_modules/carbon-components/scss/components/file-uploader/_file-uploader.scss";
+@import "./node_modules/carbon-components/scss/components/data-table/_data-table.scss";
+// @import "./node_modules/carbon-components/scss/components/ui-shell/_variables.scss";
+
+$badass: #fff;
+body {
+  margin: 0;
+  background-color: $badass;
+}
+.upload {
+  margin-top: 2rem;
+}
+.bx--btn--primary {
+  margin-top: 1.5rem;
+}
+#site {
+  max-width: 1800px;
+}
