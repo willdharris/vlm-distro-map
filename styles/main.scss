@@ -27,3 +27,27 @@ body {
 #site {
   max-width: 1800px;
 }
+// caption {
+//   display: flex;
+//   align-items: flex-start;
+//   background-color: aqua;
+// }
+caption {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.button-default {
+  @include button-theme(
+    $interactive-01,
+    transparent,
+    $text-04,
+    $hover-primary,
+    currentColor,
+    $active-primary
+  );
+
+  &:hover {
+    color: $text-04;
+  }
+}

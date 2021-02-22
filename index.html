@@ -18,15 +18,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
-    <link rel="icon" href="img/bee.svg" />
+    <link rel="icon" href="img/favicon.svg" />
     <!-- <link rel="stylesheet" href="//unpkg.com/carbon-components@latest/css/carbon-components.min.css"> -->
     <!-- <link rel="stylesheet" href="src/styles.css"> -->
+    
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"
     ></script>
 
-    <title>IBM | MS Tools</title>
+    <title>VLM | MS Tools</title>
   </head>
   <body>
     <header
@@ -36,7 +37,7 @@
       data-header
     >
       <a class="bx--header__name" title="">
-        <span class="bx--header__name--prefix"> IBM &nbsp; </span>
+        <span class="bx--header__name--prefix"> VLM &nbsp; </span>
         MS Tools
       </a>
 
@@ -45,15 +46,6 @@
           <li>
             <a class="bx--header__menu-item" tabindex="0"> Distro Map </a>
           </li>
-          <!-- <li>
-            <a
-              class="bx--header__menu-item"
-              href="https://w3.ibm.com/w3publisher/media-services-wiki"
-              tabindex="0" target="_blank"
-            >
-              MS Wiki
-            </a>
-          </li> -->
         </ul>
       </nav>
       <div class="bx--header__global"></div>
@@ -73,7 +65,7 @@
             >A list of packages currently active at a destination, according to
             MXP.</strong
           >
-          <p class="bx--label-description">Only .xls and .xlsx files.</p>
+          <p class="bx--label-description">Only .xls and .xlsx files. Only one sheet per workbook.</p>
           <div class="bx--file" data-file data-file-demo-state-manager>
             <label
               for="file-uploader"
@@ -114,7 +106,7 @@
           <strong class="bx--file--label"
             >A list of assets from the customer to be updated or expired.
           </strong>
-          <p class="bx--label-description">Only .xls and .xlsx files.</p>
+          <p class="bx--label-description">Only .xls and .xlsx files. Only one sheet per workbook.</p>
           <div class="bx--file" data-file data-file-demo-state-manager>
             <label
               for="file-uploader-update"
@@ -165,5 +157,8 @@
       <div id="site"></div>
     </div>
     <script type="module" defer src="src/index.js"></script>
+    </script>
+    
+    
   </body>
 </html>
