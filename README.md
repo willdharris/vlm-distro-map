@@ -21,3 +21,10 @@ This is a list of packages currently active at a destination, according to MXP.
 - You can also export the table as xslx.
 
 Please note - each uploaded file should be xls or xlsx file type. And each file should only include one sheet in the workbook.
+
+### Built with:
+
+- [TableExport.js](https://github.com/clarketm/TableExport)
+- [IBM Carbon Design System](https://github.com/carbon-design-system/carbon)
+- HTML
+- Vanilla JS

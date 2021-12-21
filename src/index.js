@@ -1,7 +1,6 @@
 import { destinationArray } from "./destination";
 import { expirationArray } from "./expiration";
 import { FileUploader } from "carbon-components";
-import { saveAs } from "file-saverjs";
 import { TableExport } from "tableexport";
 
 function mapIDs() {
